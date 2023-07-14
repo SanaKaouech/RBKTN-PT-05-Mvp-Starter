@@ -1,0 +1,116 @@
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(8, 8, 8);
+  background-color: rgb(117, 163, 117);
+  border: 2px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 580px;
+}
+
+input {
+  display: flex;
+  width: 15%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0;
+  border: solid 5px;
+  font-size: 20px;
+  margin-left: 40%;
+  border-color: darkgreen;
+
+}
+
+select {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 20%;
+  margin-left: 70%;
+}
+
+
+h4 {
+  position: absolute;
+  color: pink;
+}
+
+#titre {
+  text-align: center;
+  color: green;
+  font-size: 60px;
+}
+
+#list {
+  display: inline-block;
+  border: 3px solid green;
+  padding: 10px;
+  border-radius: 50px 20px;
+  margin: .9vw 0;
+  width: 30%;
+  margin-left: 20%;
+}
+
+p {
+
+  font-size: 25px;
+  font-family: sherif;
+  display: flex;
+}
+
+#del {
+  border-radius: 15px;
+  margin: 1rem 0 1rem 8rem;
+  margin-left: 80%;
+
+}
+
+textarea {
+  display: flex;
+  width: 15%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0;
+  border: 1;
+  font-size: 20px;
+  margin-left: 40%;
+}
+
+#welcom {
+  font-size: 50px;
+  font-family: sherif;
+  text-align: center;
+}
+
+body {
+  border-style: solid;
+  border-color: green;
+  border-width: 10px;
+}
+
+h5 {
+  font-size: 30px;
+  font-family: sherif;
+  color: rgb(108, 169, 108);
+}
+
+#listcv {
+  font-size: 30px;
+  font-family: sherif;
+  color: green;
+  font-weight: bold;
+
+}

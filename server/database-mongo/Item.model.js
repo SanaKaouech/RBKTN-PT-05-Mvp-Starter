@@ -15,6 +15,10 @@ const itemSchema = new db.Schema({
     type: String,
     required: true
   },
+  Adress: {
+    type: String,
+    required: true
+  },
   CIN: {
     type: String,
     required: true

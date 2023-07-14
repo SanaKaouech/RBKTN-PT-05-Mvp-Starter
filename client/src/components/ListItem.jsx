@@ -8,9 +8,22 @@ const ListItem = ({ item, refreshList }) => {
 
   return (
 
-    <div>
-      <span>{item.name}</span>
-      <button onClick={handleDelete} >delete</button>
+    <div id='list'> 
+      <span>
+
+      <p> Name : {item.name} </p>
+
+      <p> Last Name : {item.lastName}</p>
+
+      <p> Adress : {item.Adress}</p>
+
+      <p> CIN : {item.CIN}</p>
+
+      <p> Skills : {item.skills} </p>
+
+      </span >
+
+      <button id='del'onClick={handleDelete} >delete</button> 
     </div>
   )
 }
